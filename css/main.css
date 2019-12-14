@@ -80,11 +80,11 @@ nav li:hover {
 
 }
 
-@media only screen and (min-width:38em) {
+@media only screen and (min-width: 38em) {
 
   html {
-  font-size: 110%
-  line-height:  1.4;
+    font-size: 110%;
+    line-height: 1.4;
   }
 
   nav ul {
@@ -100,3 +100,33 @@ nav li:hover {
   }
 
 }
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  header {
+    display: flex;
+    padding: .75em 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav li {
+    display: block;
+    min-width: 25%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+}
+© 2019 GitHub, Inc.
