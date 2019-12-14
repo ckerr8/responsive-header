@@ -69,3 +69,34 @@ nav li:hover {
     flex-wrap: wrap;
     text-align: center;
   }
+
+  nav li {
+    min-width: 50%;
+  }
+
+  header {
+    min-height: 160px;
+  }
+
+}
+
+@media only screen and (min-width:38em) {
+
+  html {
+  font-size: 110%
+  line-height:  1.4;
+  }
+
+  nav ul {
+    flex-wrap: nowrap;
+  }
+
+  nav li {
+    min-width: 25%;
+  }
+
+  header {
+    min-height: 115px;
+  }
+
+}
